@@ -3,83 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innovación y Nuevos Negocios: Desafío Pantallas | MBT UdeSA</title>
+    <title>Innovación: Desafío Pantallas | MBT UdeSA</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
         .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
     </style>
 </head>
-<body class="bg-gray-50 font-sans text-gray-900">
+<body class="bg-slate-50 font-sans text-slate-900">
 
     <!-- Header -->
-    <header class="bg-white border-b sticky top-0 z-50">
-        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-xl font-bold tracking-tight">Prototipos de Innovación <span class="text-blue-600">MBT</span></h1>
-            <span class="text-sm font-medium text-gray-500 uppercase tracking-widest">UdeSA 2026</span>
+    <header class="glass border-b sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-tight text-slate-800">Prototipos de Innovación <span class="text-indigo-600 italic">MBT</span></h1>
+            <div class="flex items-center gap-4">
+                <span class="text-xs font-semibold bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full uppercase tracking-wider">UdeSA 2026</span>
+            </div>
         </div>
     </header>
 
-    <main class="max-w-5xl mx-auto px-4 py-12">
-        <!-- Intro -->
-        <section class="mb-16 text-center">
-            <h2 class="text-4xl font-extrabold mb-4">Uso de pantallas en la infancia</h2>
-            <p class="text-xl text-gray-600 max-w-2xl mx-auto italic">3 abordajes para transformar el conflicto en conexión.</p>
+    <main class="max-w-6xl mx-auto px-6 py-16">
+        <!-- Hero Section -->
+        <section class="mb-24 text-center">
+            <h2 class="text-5xl font-black text-slate-900 mb-6 leading-tight">Abordando el uso dañino de <br><span class="text-indigo-600">pantallas en la infancia</span></h2>
+            <p class="text-xl text-slate-500 max-w-3xl mx-auto leading-relaxed">
+                Tres perspectivas disruptivas que van más allá del control parental tradicional: 
+                desde la automatización de límites hasta la recuperación del tiempo de calidad del adulto.
+            </p>
         </section>
 
         <!-- Grilla de Prototipos -->
-        <div class="space-y-24">
+        <div class="space-y-32">
             
             <!-- Prototipo 1 -->
-            <section class="grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                    <span class="text-blue-600 font-bold">Concepto 01</span>
-                    <h3 class="text-3xl font-bold mb-4 italic italic">"Ahora Qué"</h3>
-                    <p class="text-gray-600 mb-4 text-lg">El sistema asume la autoridad. Un hub centralizado que gestiona los tiempos de todos los dispositivos, eliminando la fricción padre-hijo al automatizar los cortes de forma orgánica.</p>
+            <section class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="inline-block bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded uppercase">Concepto 01</div>
+                    <h3 class="text-4xl font-bold italic">"Ahora Qué"</h3>
+                    <p class="text-lg text-slate-600 leading-relaxed text-justify">
+                        El sistema asume la autoridad para despersonalizar el conflicto. Un hub centralizado gestiona todos los dispositivos del hogar, ejecutando cortes programados que simulan agotamiento de batería o descanso, permitiendo que el padre deje de ser el "villano" y se convierta en el aliado del juego offline.
+                    </p>
                 </div>
-                <div class="video-container shadow-2xl">
-                    <!-- Reemplaza LINK_DRIVE_1 con el link de "embed" de tu video -->
-                    <iframe src="TU_LINK_DE_DRIVE_AQUÍ_1/preview" allow="autoplay"></iframe>
+                <div class="video-container shadow-2xl rounded-2xl border-4 border-white">
+                    <iframe src="https://drive.google.com/file/d/11JrPOEg87j-bfoyGY0T_-3yxHKEXEmVb/preview" allow="autoplay"></iframe>
                 </div>
             </section>
 
             <!-- Prototipo 2 -->
-            <section class="grid md:grid-cols-2 gap-8 items-center">
-                <div class="order-2 md:order-1 video-container shadow-2xl">
-                    <!-- Reemplaza LINK_DRIVE_2 con el link de "embed" de tu video -->
-                    <iframe src="TU_LINK_DE_DRIVE_AQUÍ_2/preview" allow="autoplay"></iframe>
+            <section class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="order-2 lg:order-1 video-container shadow-2xl rounded-2xl border-4 border-white">
+                    <iframe src="https://drive.google.com/file/d/1a8AB3IMGSyQ6JBDz528am1yet57T4k4R/preview" allow="autoplay"></iframe>
                 </div>
-                <div class="order-1 md:order-2">
-                    <span class="text-blue-600 font-bold">Concepto 02</span>
-                    <h3 class="text-3xl font-bold mb-4 italic">"Banco de Tiempo"</h3>
-                    <p class="text-gray-600 mb-4 text-lg">Economía de puntos compartida entre escuela y familia. El tiempo de pantalla se gana con actividades off-line, bajo criterios validados por la comunidad educativa.</p>
+                <div class="order-1 lg:order-2 space-y-6">
+                    <div class="inline-block bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded uppercase">Concepto 02</div>
+                    <h3 class="text-4xl font-bold italic text-right lg:text-left">"Banco de Tiempo"</h3>
+                    <p class="text-lg text-slate-600 leading-relaxed text-justify">
+                        Una economía de puntos basada en el mérito y el consenso comunitario. El tiempo de pantalla se gana cumpliendo hitos validados por la familia y la escuela, transformando el consumo digital en una recompensa tangible por el desarrollo de habilidades y hábitos saludables.
+                    </p>
                 </div>
             </section>
 
-            <!-- Prototipo 3 -->
-            <section class="grid md:grid-cols-2 gap-8 items-center bg-blue-50 p-8 rounded-3xl border-2 border-dashed border-blue-200">
-                <div>
-                    <span class="text-blue-600 font-bold">Concepto 03 (En desarrollo)</span>
-                    <h3 class="text-3xl font-bold mb-4 italic">"Tiempo Liberado"</h3>
-                    <p class="text-gray-600 mb-4 text-lg">IA aplicada a liberar la carga operativa del adulto. Sincronización de cronómetros y pulseras físicas para asegurar que el tiempo ganado se convierta en interés compartido.</p>
-                    <div class="inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold animate-pulse italic">
-                        PRÓXIMAMENTE
-                    </div>
+            <!-- Prototipo 3 - EL QUE ESTÁS POR HACER -->
+            <section class="bg-indigo-900 rounded-[3rem] p-12 text-white overflow-hidden relative">
+                <div class="absolute top-0 right-0 p-8 opacity-10">
+                    <svg width="200" height="200" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/><path d="M13 7h-2v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
                 </div>
-                <div class="bg-gray-200 rounded-xl aspect-video flex items-center justify-center text-gray-400">
-                    <!-- Aquí irá el tercer video -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor italic">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                    </svg>
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-6">
+                        <div class="inline-block bg-white text-indigo-900 text-xs font-bold px-3 py-1 rounded uppercase">Prototipo 3 - En desarrollo</div>
+                        <h3 class="text-4xl font-bold italic">"Tiempo liberado, interés compartido"</h3>
+                        <p class="text-indigo-100 text-lg leading-relaxed text-justify">
+                            El abordaje más ambicioso: usar la IA para resolver la carga operativa del adulto. Al liberar tiempo real de gestión doméstica y laboral, el sistema crea ventanas de conexión auténtica, monitoreadas por tecnología wearable y validadas por una comunidad de pares.
+                        </p>
+                        <ul class="space-y-2 text-indigo-200">
+                            <li class="flex items-center gap-2">✓ Asistente de IA para gestión del hogar</li>
+                            <li class="flex items-center gap-2">✓ Pulsera física con incentivo social</li>
+                            <li class="flex items-center gap-2">✓ Educación digital con personajes IA</li>
+                        </ul>
+                    </div>
+                    <div class="bg-indigo-800/50 rounded-2xl aspect-video border-2 border-dashed border-indigo-400 flex flex-col items-center justify-center text-center p-6">
+                        <div class="animate-bounce mb-4 text-indigo-300">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <p class="text-indigo-300 font-medium tracking-widest italic uppercase">Presentación en producción</p>
+                    </div>
                 </div>
             </section>
 
         </div>
     </main>
 
-    <footer class="bg-gray-100 py-12 mt-24 border-t">
-        <div class="max-w-5xl mx-auto px-4 text-center text-gray-500 text-sm italic">
-            &copy; 2026 Materia: Innovación y Nuevos Negocios - Maestría en Business & Technology (MBT) - Universidad de San Andrés.
+    <footer class="bg-white py-16 mt-32 border-t">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="text-slate-400 text-sm italic">Asignatura: Innovación y Nuevos Negocios</p>
+            <p class="text-slate-600 font-bold mt-2">Master in Business & Technology (MBT) - UdeSA</p>
         </div>
     </footer>
 
